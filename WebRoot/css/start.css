@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: auto;
+    height: 100%;
+    font-family: 'Microsoft Yahei';
+    background: #f2f2f2;
+    background: url(../image/bg3.png);
+    background-size: auto;
+    font-size: 1.4rem;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width:768px) {
+    center {
+        height: 80%;
+        margin: 15% auto;
+    }
+}
+
+.start img {
+    margin: 5% auto;
+}
+
+.title {
+    width: auto;
+    margin: 3% auto;
+}
+
+.index-btns {
+    margin: 2% auto;
+}
+
+.index-btn1 {
+    width: 90%;
+    height: 40px;
+    margin: 2% auto;
+    text-align: center;
+    background: #465eda;
+    border: 1px solid #465eda;
+    box-shadow: 2px 2px 1px #4865fb;
+    border-radius: 4px;
+}
+
+.index-btn1 input {
+    width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    color: #FFF;
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.index-btn2 {
+    width: 90%;
+    height: 40px;
+    margin: 10px auto;
+    text-align: center;
+    background: #20c818;
+    border: 1px solid #20c818;
+    box-shadow: 2px 2px 1px #47f83e;
+    border-radius: 4px;
+}
+
+.index-btn2 input {
+    width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    color: #FFF;
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    margin: 5% auto;
+}
+
+.footer-Con {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "STFangsong";
+    color: rgb( 121, 124, 121);
+    font-size: 1.4rem;
+}
+
+.footer-Con {
+    text-align: center;
+}
